@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(210, 255, 255);
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color:rgb(37, 121, 159);
+    border-radius: 0 0 10px 10px;
+}
+footer{
+    position: absolute;
+    top: calc(100% - 60px);
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(7, 48, 66);
+    border-radius: 10px 10px 0 0 ;
+}
+#email{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "SUSE", sans-serif;
+}
+#links{
+    position: relative;
+    margin-left: 50%;
+    margin-top: 15px;
+}
+.link{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    font-family: "SUSE", sans-serif;
+    transition: all 500ms ease; 
+    background-color: rgb(156, 237, 255);
+}
+.link:hover{
+	box-shadow: inset 0 0 3px 3px rgb(93, 141, 152);
+    transition: all 500ms ease; 
+}
+#name{
+    position: absolute;
+    font-family: "SUSE", sans-serif;
+    font-size: 24px;
+    color: rgb(231, 244, 255);
+    top: -3px;
+    left:30px;
+    
+}
+#me{
+    position: absolute;
+    top:110px;
+    left:20px;
+    width: 450px;
+    border-radius: 10px;
+}
+#table {
+    position: absolute;
+    top: 650px;
+    left: 650px;
+    background-color: rgb(222, 242, 251);
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    font-family: "SUSE", sans-serif;
+    font-size: 14px;
+  }
+  tr:first-child{
+    th:first-child{
+        border-top-left-radius: 10px;
+        
+      }
+    th:last-child{
+        border-top-right-radius: 10px;
+      }
+  }
+  th, td {
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+  }
+  
+ tr:last-child{
+  td:first-child {
+    
+    border-bottom-left-radius: 10px;
+  }
+  
+ 
+  td:last-child {
+    border-bottom-right-radius: 10px;
+    
+  }
+ }
+ #info{
+    position: absolute;
+    top: 110px;
+    left: 500px;
+    width: 800px;
+    height: 500px;
+
+ }
+ #info-name{
+    font-size: 60px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    color: rgb(0, 45, 105);
+ }
+#info-about{
+    font-family: "SUSE", sans-serif;
+    font-size: 24px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-35%);
+}
